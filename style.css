@@ -16,6 +16,7 @@
     align-items: center;
 }
 
+
 .nab-img-logo{
     display: flex;
 }
@@ -39,8 +40,12 @@
     border: none;
     border-radius: 12px;
 }
+.navbar-head{
+    font-weight: bold; 
+}
 .home-color{
     color: #FEA301;
+    font-weight: bold;
  }
  .about-color{
     color: #01ACFD;
@@ -51,5 +56,57 @@
 .admi-color{
     color: rgba(93, 88, 239, 1);
 }
-
-
+.hamburger { 
+    display: none;
+    cursor: pointer;
+ }
+.hamburger  div { 
+    width: 23px; 
+    height: 4px; 
+    background-color: black; 
+    margin: 6px 0; 
+}
+.super-hero{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    align-items: center;
+}
+.students-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+   
+   
+}
+.students{
+    width: 600px;
+    height: 331px;
+    margin-right: 50px;
+   
+}
+.part1{
+    color: #FEA301;
+}
+.part3{
+    color: #01ACFD;
+}
+@media screen  and (max-width:576px){
+    .navbar-head{
+        display: none;
+    }
+    .btn-primary{
+        display: none;}
+    .navlis{
+        display: none;
+    }
+    .hamburger{
+        display: block; 
+    
+    }
+   .kid-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 16px; 
+   }
+}
