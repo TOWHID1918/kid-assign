@@ -197,11 +197,71 @@
     margin-bottom: 60px;
 }
 .footer-part{
-    display: flex;
-    gap: 20px;
+   
+    
+    background-color: #01ACFD;
+    height: 519px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+ 
+  
+}
+
+.footer-HEAD{
+    padding-left: 140px;
+
+   
+}
+.footer-descri{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    width: 399px;
+    height: 100px;
+    text-align: left;
+    
+
+}
+.footer-img{
+    width: 82px;
+    height: 81px;
+    padding-top:10px;
+    
+ 
+ 
+}
+.fl{
+    text-align: left;
+    padding-left: 120px;
+}
+.footer-about{
+   
+    color: #FFFFFF;
+    
+    
+}
+
+.keep{
+    color: #FFFFFF;
+}
+.png{
+   padding-right: 144px;
+
+}
+.footer-title{
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 .schoo1-part{
     display: flex;
+   text-align: left;
+    
 }
 
 
@@ -242,12 +302,37 @@
    .card{
     grid-template-columns: repeat(1,1fr);
     
+    
    }
    .curriculum-title{
     margin-top: 100px;
     margin-bottom: 20px;
     font-size: 2.5rem;
    }
+   .footer-part{
+    height: 643px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .footer-HEAD{
+    padding-left: 30px;
+    padding-bottom: 0px;
+   
+   }
+ .fl{
+    padding-left: 0px;
+    
+ }
+ .footer-about-head{
+    padding-left: 35px;
+    text-align: left;
+ }
+ .png{
+    
+    padding-left: 35px;
+    text-align: left;
+    padding-bottom: 20px;
+ }
 
  
 }
