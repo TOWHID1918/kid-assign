@@ -231,12 +231,17 @@
 .big-btn{
     background-color: #3CD8E8;
     border: none;
-    width: 174px;
-    height: 50px;
+    width: 170px;
+    height: 70px;
     color: #FFFFFF;
     border-radius: 47px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: medium;
     margin-left: 30px;
-    margin-top: -400px;
+    margin-top: -200px;
+    
   
 }
 .first-btn{
@@ -244,23 +249,89 @@
     border: none;
     color: #FFFFFF;
     border-radius: 30px;
-    width: 174px;
-    height: 38px;
-   
+    width: 140px;
+    height: 40px;
+    padding-top: -30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -200px; 
+}
+.sec-btn{
+    background-color: rgba(93, 88, 240, 1);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+    padding-top: -30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -200px; 
+
+}
+.thr-btn{
+    background-color:#95B226;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+    padding-top: -30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -200px; 
+
+}
+.fou-btn{
+    background-color:#95B226;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 30px;
+    width: 140px;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -200px;
+
+}
+.Stories{
+    padding-top: 50px;
+}
+.summer{
+    margin-left: 20px;
+    width: 214px;
+    height: 54px;
+    font-weight: bold;
+    font-size: 1rem;
 }
 .big-title{
     margin: 0px;
 }
-.first-part{
-  
+.big-des{
+    padding: 20px 40px;
+    color: rgba(102, 102, 102, 1);
+    font-size: 1rem;
+    font-weight: bold;
 
 }
-
-/* .View{
-    margin-top: 190px;
-    margin-left: 650px;
+.big-title{
+   padding: 20px 40px;
    
-} */
+}
+
+.View{
+   margin-left: 650px;
+   margin-top: 100px;
+}
 
 /* footer part start */
 .footer-part{
@@ -363,6 +434,8 @@
    }
    .card{
     grid-template-columns: repeat(1,1fr);
+    margin-left: 10px;
+    margin-right: 10px;
     
     
    }
@@ -371,6 +444,32 @@
     margin-bottom: 20px;
     font-size: 2.5rem;
    }
+   #id{
+    display: none;
+   }
+   .forth-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+    .first-part,.sec-part,.thr-part,.fou-part{
+        width: 230.35px;
+        height: 270px;
+        
+       
+    }
+    
+
+    .img{
+        max-width: 100%;
+    }
+
+
+
+
+
+
    .footer-part{
     height: 643px;
     display: grid;
@@ -392,6 +491,8 @@
     text-align: left;
     padding-bottom: 20px;
  }
-
+ .View{
+   margin-left: 150px;
+ }
  
 }
